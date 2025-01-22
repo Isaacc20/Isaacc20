@@ -1,9 +1,12 @@
 {
   "name": "isaac-oyedele",
+  "homepage": "https://Isaacc20.github.io/Isaacc20",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -25,6 +28,7 @@
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
