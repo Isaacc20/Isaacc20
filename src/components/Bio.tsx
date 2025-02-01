@@ -27,7 +27,7 @@ const Bio: FC = () => {
                         <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://instagram.com/hyzeekoyedele'}><FaInstagram /></Link>
                         <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'mailto:isaacoluwadarasimi002@.com'}><FiMail /></Link>
                     </div>
-                    <Link className="bg-cyan-400 w-full p-3 text-lg flex gap-3 items-center justify-center rounded-xl" to={'mailto:isaacoluwadarasimi002@.com'}><FiMail /> HIRE ME</Link>
+                    <Link className="bg-cyan-400 w-full p-3 text-lg flex gap-3 items-center justify-center rounded-xl" to={'mailto:isaacoluwadarasimi002@gmail.com'}><FiMail /> HIRE ME</Link>
                     </div>
                 </div>
             </div>
