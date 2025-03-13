@@ -12,7 +12,7 @@ const About = () => {
                     <span className="text-2xl font-bold text-cyan-400">"</span>
                     I started coding in 2022, which opened me up to new possibilities and gave me the opportunity to think bigger. Over time, I mastered full-stack development, built projects, and gained valuable experience working in fast-paced startups.
                     <br />
-                    In 2024, I started building FLECT with a team of 8 and later founded Resonans to address challenges in the research industry. Along the way, I co-founded AgricMe and currently work as a Frontend Developer at Cohut, where we&apos;ve successfully launched the first MVP.
+                    In 2024, I started building FLECT with a team of 8 and later founded Resonans to address challenges in the research industry. Along the way, I co-founded AgricMe and worked as the Lead Frontend Developer at Cohut, successfully launching the first MVP.
                     <span className="text-2xl font-bold text-cyan-400">"</span>
                 </span>
             </div>

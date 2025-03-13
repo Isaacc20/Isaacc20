@@ -12,7 +12,7 @@ const Bio: FC = () => {
                     <div>
                     <div className="flex justify-between items-end w-full h-full">
                         <h3 className="text-slate-100 font-bold text-4xl"><span className="text-cyan-400">I</span>O</h3>
-                        <span className="text-slate-100 font-thin text-medium text-end">Innovator <br />Entrepreneur</span>
+                        <span className="text-slate-100 font-thin text-medium text-end">Software Engineer <br />Innovator</span>
                     </div>
                     <div className="flex flex-col gap-5">
                         <img className="rounded-2xl w-full" src={dp} alt="Profile image" />
@@ -21,8 +21,8 @@ const Bio: FC = () => {
                     </div>
                     <div className="flex flex-col gap-10">
                         <span className="flex lg:hidden font-light text-5xl text-slate-100 text-center">Isaac Oyedele</span>
-                        <div className="w-full flex justify-between">
-                        <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://linkedin.com/theisaac'}><FaLinkedinIn /></Link>
+                        <div className="w-full flex justify-between gap-2">
+                        <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://linkedin.com/isaacoyedele'}><FaLinkedinIn /></Link>
                         <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://github.com/isaacc20'}><FaGithub /></Link>
                         <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://instagram.com/hyzeekoyedele'}><FaInstagram /></Link>
                         <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'mailto:isaacoluwadarasimi002@.com'}><FiMail /></Link>

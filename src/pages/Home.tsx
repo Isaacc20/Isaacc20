@@ -1,6 +1,7 @@
 import About from '../components/About'
 import Bio from '../components/Bio'
 import Hero from '../components/Hero'
+import Projects from '../components/Projects'
 import Resume from '../components/Resume'
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
               <Hero />
               <About />
               <Resume />
+              <Projects />
           </div>
         </div>
     </>
