@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsCodeSlash } from 'react-icons/bs'
 import { DiFirebase } from 'react-icons/di'
 import { FaReact } from 'react-icons/fa6'
