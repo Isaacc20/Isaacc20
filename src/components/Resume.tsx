@@ -39,7 +39,7 @@ const Resume = () => (
                     <div className="pl-9 flex flex-col gap-3">
                         <Link to={'https://theresonans.com'} className="text-white text-2xl">Resonans - <span className="text-lg italic">Founder</span></Link>
                         <span className="text-gray-400">
-                        Founded Resonans, a platform that decentralizes research data, making it accessible to innovators, policymakers, and the public. Collaborated with a team to host impactful events, engage over 30 industry experts, and launch the platform’s first MVP.
+                        Founded Resonans, a platform that decentralizes research, helping academic researchers to build real-world solutions from their research. Collaborated with a team to host impactful events, engage over 30 industry experts, and launch the platform’s first MVP.
                         </span>
                         <div className="flex gap-5">
                             <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><FaReact /> React Js</span>
