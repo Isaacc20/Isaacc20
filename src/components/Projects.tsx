@@ -38,7 +38,7 @@ const Projects = () => {
                     <div className="flex flex-col gap-5">
                         <div className="flex items-center gap-5">
                             <div className="p-2 bg-purple-600 rounded-full"></div>
-                            <p className="text-gray-300">November 2023 - July 2024</p>
+                            <p className="text-gray-300">2023</p>
                         </div>
                         <div className="pl-9 flex flex-col gap-3">
                             <Link to={'https://the-elixir-brand.netlify.app'} className="text-white text-2xl">Elixir - <span className="text-lg italic">Software Engineer</span></Link>

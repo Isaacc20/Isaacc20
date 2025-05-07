@@ -16,7 +16,7 @@ const Resume = () => (
                 <div className="flex flex-col gap-5">
                     <div className="flex items-center gap-5">
                         <div className="p-2 bg-purple-600 rounded-full"></div>
-                        <p className="text-gray-300">March 2025 - Present (Contract)</p>
+                        <p className="text-gray-300">March - May 2025 (Contract)</p>
                     </div>
                     <div className="pl-9 flex flex-col gap-3">
                         <Link to={'#'} className="text-white text-2xl">Preview - <span className="text-lg italic">Lead Front-end Engineer</span></Link>
@@ -89,7 +89,7 @@ const Resume = () => (
                 <div className="flex flex-col gap-5">
                     <div className="flex items-center gap-5">
                         <div className="p-2 bg-green-600 rounded-full"></div>
-                        <p className="text-gray-300">November 2023 - Present</p>
+                        <p className="text-gray-300">November 2023 - December 2024</p>
                     </div>
                     <div className="pl-9 flex flex-col gap-3">
                         <Link to={'https://agricme.onrender.com'} className="text-white text-2xl">AgricMe - <span className="text-lg italic">Technical Co-Founder</span></Link>
