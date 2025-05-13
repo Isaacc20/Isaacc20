@@ -22,7 +22,7 @@ const Projects = () => {
                             <p className="text-gray-300">2024</p>
                         </div>
                         <div className="pl-9 flex flex-col gap-3">
-                            <h1 className="text-white text-2xl">Heroes - <span className="text-lg italic">Lead Front-end Engineer</span></h1>
+                            <Link to={'https://loquacious-medovik-30c0f7.netlify.app/play'} className="text-white text-2xl">Heroes - <span className="text-lg italic">Lead Front-end Engineer</span></Link>
                             <span className="text-gray-400">
                                 Led a team of 8 to develop Heroes, a web-based gaming platform. Built the frontend, featuring an interactive drag-and-drop system where users match heroes with their creators, creating an engaging and dynamic gaming experience.
                             </span>
