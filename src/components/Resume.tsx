@@ -12,6 +12,25 @@ const Resume = () => (
             </div>
             {/* <h1 className="text-white">My <span className="text-cyan-400">WORK EXPERIENCE</span> at a glance</h1> */}
             <div className="flex flex-col items-start gap-10">
+                {/* Gamr */}
+                <div className="flex flex-col gap-3 md:gap-5">
+                    <div className="flex items-center gap-3 md:gap-5">
+                        <div className="p-2 bg-red-600 rounded-full"></div>
+                        <p className="text-gray-300">2025 - Present</p>
+                    </div>
+                    <div className="pl-9 flex flex-col gap-3">
+                        <Link to={'#'} className="text-white text-2xl">Gamr - <span className="text-lg italic">Front-end Engineer</span></Link>
+                        <span className="text-gray-400">
+                        Managed the frontend for Gamr’s web products, including Bracket, a tournament management platform.
+                        </span>
+                        <div className="flex gap-3 md:gap-5">
+                            <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><FaReact /> React Js</span>
+                            <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><SiTypescript /> Typescript</span>
+                            <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><RiTailwindCssLine /> Tailwind css</span>
+                        </div>
+                    </div>
+                </div>
+
                 {/* Preview */}
                 <div className="flex flex-col gap-3 md:gap-5">
                     <div className="flex items-center gap-3 md:gap-5">
@@ -30,6 +49,26 @@ const Resume = () => (
                         </div>
                     </div>
                 </div>
+
+                {/* ActSocial */}
+                <div className="flex flex-col gap-3 md:gap-5">
+                    <div className="flex items-center gap-3 md:gap-5">
+                        <div className="p-2 bg-blue-500 rounded-full"></div>
+                        <p className="text-gray-300">February - May 2025 (Contract)</p>
+                    </div>
+                    <div className="pl-9 flex flex-col gap-3">
+                        <Link to={'#'} className="text-white text-2xl">ActSocial - <span className="text-lg italic">Front-end Engineer</span></Link>
+                        <span className="text-gray-400">
+                        Built the devotional feature’s user interface with Laravel, turning design concepts into clean, usable components.
+                        </span>
+                        <div className="flex gap-3 md:gap-5">
+                            <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><FaReact /> React Js</span>
+                            <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><SiTypescript /> Typescript</span>
+                            <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><RiBootstrapLine /> Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
                 {/* RESONANS */}
                 <div className="flex flex-col gap-3 md:gap-5">
                     <div className="flex items-center gap-3 md:gap-5">
@@ -48,6 +87,7 @@ const Resume = () => (
                         </div>
                     </div>
                 </div>
+
                 {/* COHUT */}
                 <div className="flex flex-col gap-3 md:gap-5">
                     <div className="flex items-center gap-3 md:gap-5">
@@ -66,6 +106,7 @@ const Resume = () => (
                         </div>
                     </div>
                 </div>
+
                 {/* STELLAR EMINENCE */}
                 <div className="flex flex-col gap-3 md:gap-5">
                     <div className="flex items-center gap-3 md:gap-5">
