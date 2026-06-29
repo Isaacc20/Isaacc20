@@ -16,7 +16,7 @@ const Resume = () => (
                 <div className="flex flex-col gap-3 md:gap-5">
                     <div className="flex items-center gap-3 md:gap-5">
                         <div className="p-2 bg-red-600 rounded-full"></div>
-                        <p className="text-gray-300">2025 - Present</p>
+                        <p className="text-gray-300">May 2025 - April 2026</p>
                     </div>
                     <div className="pl-9 flex flex-col gap-3">
                         <Link to={'https://gamr.africa'} className="text-white text-2xl">Gamr - <span className="text-lg italic">Front-end Engineer</span></Link>
@@ -76,7 +76,7 @@ const Resume = () => (
                         <p className="text-gray-300">November 2024 - Present</p>
                     </div>
                     <div className="pl-9 flex flex-col gap-3">
-                        <Link to={'https://theresonans.com'} className="text-white text-2xl">Resonans - <span className="text-lg italic">Founder</span></Link>
+                        <Link to={'https://resonanslab.com'} className="text-white text-2xl">Resonans - <span className="text-lg italic">Founder</span></Link>
                         <span className="text-gray-400">
                         Founded Resonans, a platform that decentralizes research, helping academic researchers to build real-world solutions from their research. Collaborated with a team to host impactful events, engage over 30 industry experts, and launch the platform’s first MVP.
                         </span>

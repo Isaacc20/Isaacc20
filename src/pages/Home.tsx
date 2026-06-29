@@ -1,8 +1,8 @@
-import About from '../components/About'
-import Bio from '../components/Bio'
-import Hero from '../components/Hero'
-import Projects from '../components/Projects'
-import Resume from '../components/Resume'
+import About from '../components/home/About'
+import Bio from '../components/home/Bio'
+import Hero from '../components/home/Hero'
+import Projects from '../components/home/Projects'
+import Resume from '../components/home/Resume'
 
 const Home = () => {
   return (

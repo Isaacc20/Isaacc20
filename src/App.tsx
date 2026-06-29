@@ -1,8 +1,9 @@
 
 import { ErrorBoundary } from 'react-error-boundary'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import { BrowserRouter } from 'react-router-dom'
+import HomeV2 from './pages/v2/HomeV2'
 
 function App() {
 
@@ -10,7 +11,11 @@ function App() {
     <>
       <BrowserRouter>
         <ErrorBoundary fallback={<div>Something went wrong</div>}>
-          <Home />
+          <Routes>
+
+            <Route path="/" element={<Home />} />
+            <Route path="/v2" element={<HomeV2 />} />
+          </Routes>
         </ErrorBoundary>
       </BrowserRouter>
     </>

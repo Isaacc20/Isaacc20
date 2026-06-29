@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import dp from "../assets/images/dp.jpeg";
+import dp from "../../assets/images/dp.jpeg";
 import { FiMail } from "react-icons/fi";
 import { FC } from "react";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
@@ -26,7 +26,7 @@ const Bio: FC = () => {
                             <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://linkedin.com/isaacoyedele'}><FaLinkedinIn /></Link>
                             <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://github.com/isaacc20'}><FaGithub /></Link>
                             <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://instagram.com/hyzeekoyedele'}><FaInstagram /></Link>
-                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'mailto:isaacoluwadarasimi002@.com'}><FiMail /></Link>
+                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'mailto:isaacoluwadarasimi002@gmail.com'}><FiMail /></Link>
                         </div>
                         <div className="flex flex-col gap-1">
                             <Link className="border border-cyan-400 w-full p-3 text-lg text-white flex gap-3 items-center justify-center rounded-xl hover:bg-cyan-400 hover:text-black" to={'https://docs.google.com/document/d/1xKZVOFOMSfCT8XZE9Y3uHp7pZLFboAxKrhqC04krhjA/edit?tab=t.q0jqw4ro4f4l#heading=h.x8fm1uorkbaw'}><PiFileDoc /> MY CV</Link>

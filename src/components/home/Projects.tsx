@@ -2,7 +2,7 @@ import { BsCodeSlash } from 'react-icons/bs'
 import { DiFirebase } from 'react-icons/di'
 import { FaReact } from 'react-icons/fa6'
 import { RiBootstrapLine } from 'react-icons/ri'
-import { SiTypescript } from 'react-icons/si'
+import { SiTypescript, SiWagmi } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 
 const Projects = () => {
@@ -14,6 +14,26 @@ const Projects = () => {
                 </div>
 
                 <div className="flex flex-col items-start gap-10">
+
+                    {/* STASH */}
+                    <div className="flex flex-col gap-3 md:gap-5">
+                        <div className="flex items-center gap-3 md:gap-5">
+                            <div className="p-2 bg-blue-600 rounded-full"></div>
+                            <p className="text-gray-300">2026</p>
+                        </div>
+                        <div className="pl-9 flex flex-col gap-3">
+                            <Link to={'https://stash-mvp.vercel.app'} className="text-white text-2xl">Stash - <span className="text-lg italic">Lead Front-end Engineer</span></Link>
+                            <span className="text-gray-400">
+                                Built a stablecoin neobank that helps you to save, earn and spend in USD. Users can create an account, deposit USD and earn daily interest, and spend anywhere in the world.
+                            </span>
+                            <div className="flex gap-3 md:gap-5">
+                                <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><SiWagmi /> Wagmi</span>
+                                <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><FaReact /> React Js</span>
+                                <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><SiTypescript /> Typescript</span>
+                                <span className="flex items-center gap-3 px-3 py-1 rounded-full border bg-slate-100 hover:bg-slate-700 hover:text-slate-100 border-slate-100 text-xs font-normal cursor-default"><RiBootstrapLine /> Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
 
                     {/* HEROES */}
                     <div className="flex flex-col gap-3 md:gap-5">
