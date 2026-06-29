@@ -23,9 +23,9 @@ const Bio: FC = () => {
                     <div className="flex flex-col gap-5">
                         <span className="flex lg:hidden font-light text-5xl text-slate-100 text-center">Isaac Oyedele</span>
                         <div className="w-full flex justify-between gap-2">
-                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://linkedin.com/isaacoyedele'}><FaLinkedinIn /></Link>
-                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://github.com/isaacc20'}><FaGithub /></Link>
-                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://instagram.com/hyzeekoyedele'}><FaInstagram /></Link>
+                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://linkedin.com/in/isaacoyedele'}><FaLinkedinIn /></Link>
+                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://github.com/Isaacc20'}><FaGithub /></Link>
+                            <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'https://instagram.com/oyedele.io'}><FaInstagram /></Link>
                             <Link className="text-2xl text-slate-200 p-3 rounded-full border border-slate-200 hover:bg-slate-600" to={'mailto:isaacoluwadarasimi002@gmail.com'}><FiMail /></Link>
                         </div>
                         <div className="flex flex-col gap-1">
